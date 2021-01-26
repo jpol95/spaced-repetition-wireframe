@@ -72,4 +72,9 @@ html, body {
     background-color: rgb(140, 255, 140);
   }
 
-  
+  .answer-input {
+      width: 250px;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+  }
