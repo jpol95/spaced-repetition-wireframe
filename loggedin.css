@@ -60,7 +60,6 @@ input {
     width: 17px; 
 }
 
-
 .add-button:hover {
     background-color: rgb(140, 255, 140);
 }
@@ -68,3 +67,29 @@ input {
 h1 {
     text-align: center;
 }
+
+.progress {
+    height: 2em;
+    width: 12em;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.progress-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.progress-bar {
+    position: absolute;
+    background-color:green;
+    top: 0px;
+    left: 0px;
+    width: 5em;
+    height: 2em;
+}
+
+.start-button
