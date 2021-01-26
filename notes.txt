@@ -1,0 +1,1 @@
+make the little fields editable for each word
