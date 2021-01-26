@@ -3,7 +3,6 @@
 html, body {
     margin: 0px; 
     background-color: rgb(243,243,243);
-
 }
 
 .front, .back {
@@ -92,4 +91,3 @@ h1 {
     height: 2em;
 }
 
-.start-button

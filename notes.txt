@@ -1,1 +1,2 @@
 make the little fields editable for each word
+flip card over when submitting to show correct answer and whether user got the answer corect or not
