@@ -25,7 +25,7 @@ body {
   padding-bottom: 20px;
 }
 
-input {
+.login-input {
   display: block;
   margin: auto;
   height: 2em;

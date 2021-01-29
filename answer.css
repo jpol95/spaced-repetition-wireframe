@@ -13,16 +13,55 @@ html, body {
     height: 50%;
     width: 50%;
     margin: auto;
+    /* display: flex; */
+    /* flex-direction: column; */
   }
+
+/* .correct-answer {
+    margin-top: 20px;
+} */
+.incorrect-answer {
+    /* margin-bottom: 20px; */
+}
+
+.word {
+    justify-self: center;
+}
+
+.feedback {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+  .correct, .incorrect {
+      position: absolute;
+      font-size: 30px;
+      top: 15%;
+      font-family: 'Architects Daughter', cursive;
+  }
+
+  .correct, .correct-answer {
+    color: green;
+  }
+
+  .incorrect, .incorrect-answer {
+      color: red;
+  }
+
+  .correct-answer, .incorrect-answer {
+      text-align: center;
+      font-family: 'Architects Daughter', cursive;
+      font-size: 30px;
+  }
+
+
+
 
   .score {
       text-align: center;
       font-family: 'Architects Daughter', cursive;
       font-size: 35px;
-  }
-
-  .feedback {
-    font-size: 20px;
   }
 
   .tally {
@@ -34,8 +73,8 @@ html, body {
       display: flex; 
       justify-content: center;
       align-items: center;
-      font-size: 4em;
-      font-family: 'Noto Sans SC'
+      /* font-size: 4em; */
+      font-family: 'Architects Daughter'
   }
 
   .record {
